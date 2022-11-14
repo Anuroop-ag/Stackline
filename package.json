@@ -1,0 +1,41 @@
+{
+  "name": "stackline",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Anuroop Gubbala"
+  },
+  "homepage": "https://Anuroop-ag.github.io/Stackline",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "apexcharts": "^3.36.3",
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "recharts": "^1.1.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "gh-pages": "^1.2.0",
+    "prettier": "^1.13.7",
+    "redux-mock-store": "^1.5.3"
+  }
+}
