@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faChartBar } from "@fortawesome/free-solid-svg-icons";
 
-
-class ProductContainer extends Component {
+class ProductView extends Component {
   constructor(props) {
     super(props);
   }
@@ -40,4 +37,4 @@ function syncProps(state) {
 export default connect(
   syncProps,
   null
-)(ProductContainer);
+)(ProductView);

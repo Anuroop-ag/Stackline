@@ -11,17 +11,17 @@ body{
   font-size: 15px;
   text-align: center;
 }
-.grid-container {
+.grid-view {
   display: grid;
   min-height: 100%;
   gap: 0;
   grid-template-columns: 25% 75%;
-  grid-template-areas: "header-container header-container" "product-container chart-container" "product-container table-container";
+  grid-template-areas: "header-view header-view" "product-view chart-view" "product-view table-view";
   margin:-5px;
 }
 
-.product-container {
-  grid-area: product-container;
+.product-view {
+  grid-area: product-view;
   background-color: white;
   margin-top: 11%;
   width: 90%;
@@ -76,8 +76,8 @@ body{
   border: 0;
 }
 /* Header Styles */
-.header-container {
-  grid-area: header-container;
+.header-view {
+  grid-area: header-view;
   background-color: white;
   text-align: left;
   color: black;
@@ -90,8 +90,8 @@ body{
   margin: 0;
 }
 /* Chart Styles */
-.chart-container {
-  grid-area: chart-container;
+.chart-view {
+  grid-area: chart-view;
   padding-bottom: 55px;
   padding-top: 10px;
   padding-left: 10px;
@@ -110,8 +110,8 @@ tr{
   border-bottom : 1px solid rgba(0 0 0 / 10%);
 }
 
-.table-container {
-  grid-area: table-container;
+.table-view {
+  grid-area: table-view;
   padding-bottom: 55px;
   padding-left: 10px;
   padding-right: 20px;

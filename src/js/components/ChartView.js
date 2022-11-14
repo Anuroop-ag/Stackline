@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { LineChart, Line, XAxis, Tooltip, Legend,CartesianGrid, YAxis} from "recharts";
 
-class ChartContainer extends Component {
+class ChartView extends Component {
   constructor(props) {
     super(props);  
   }
@@ -35,4 +35,4 @@ function mapStateToProps(state) {
 export default connect(
   mapStateToProps,
   null
-)(ChartContainer);
+)(ChartView);

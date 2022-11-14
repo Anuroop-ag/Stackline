@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-// import Table from "../components/Table";
 import { sortBy, fetchData } from "../actions/actions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
 
-class TableContainer extends Component {
+class TableView extends Component {
   constructor(props) {
     super(props);
     this.sortBy = this.sortBy.bind(this);
@@ -105,5 +104,5 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TableContainer);
+)(TableView);
 

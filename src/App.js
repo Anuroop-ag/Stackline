@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 import "./css/App.css";
-import ProductContainer from "./js/components/ProductView";
-import TableContainer from "./js/components/TableView";
-import ChartContainer from "./js/components/ChartView";
+import ProductView from "./js/components/ProductView";
+import TableView from "./js/components/TableView";
+import ChartView from "./js/components/ChartView";
 import Header from "./js/components/Header";
 
 class App extends Component {
   render() {
     return (
-      <div className="grid-container">
-        <div className="product-container">
-          <ProductContainer />
+      <div className="grid-view">
+        <div className="product-view">
+          <ProductView />
         </div>
-        <div className="chart-container">
-          <ChartContainer />
+        <div className="chart-view">
+          <ChartView />
         </div>
-        <div className="table-container">
-          <TableContainer />
+        <div className="table-view">
+          <TableView />
         </div>
-        <div className="header-container">
+        <div className="header-view">
           <Header />
         </div>
       </div>
